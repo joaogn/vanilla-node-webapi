@@ -1,0 +1,14 @@
+{
+  "name": "NodeNativeWebApi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node src/unit.test.js",
+    "start": "node src/index.js",
+    "dev": "npx nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
